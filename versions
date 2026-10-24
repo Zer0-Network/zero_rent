@@ -1,12 +1,11 @@
 {
   "schema": 1,
   "resource": "zero_rent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "notes": [
-    "Evita que el editor deje al jugador congelado al fallar un modelo.",
-    "Protege el catálogo contra sobrescrituras entre administradores.",
-    "Reduce el trabajo del servidor al sincronizar catálogos y recibos RPC.",
-    "Prepara instalaciones nuevas y publicaciones sin exponer datos de jugadores."
+    "La versión instalada se lee desde fxmanifest.lua en QBCore, Qbox y ESX.",
+    "El paquete conserva el historial de cambios y la licencia de Lucide.",
+    "El comprobador de actualizaciones enlaza al portal de Cfx."
   ]
 }
