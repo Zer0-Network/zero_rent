@@ -1,11 +1,14 @@
 {
   "schema": 1,
   "resource": "zero_rent",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "download": "https://portal.cfx.re/assets/granted-assets",
   "notes": [
-    "El aviso de alquiler vencido se oculta a los 30 segundos; el plazo de eliminación es de un minuto.",
-    "La renovación a tiempo invalida el borrado pendiente; el servidor valida contrato y entidad antes de eliminar.",
-    "Reintento de eliminación y protección de pagos en curso o almacenamiento no disponible."
+    "ES: Corregido el empaquetado de las interfaces compiladas: se incluyen sus bundles JS/CSS de assets sin exigir app.js, locales.js ni style.css de desarrollo.",
+    "ES: El vehículo se estabiliza desde su creación; la inicialización solicita control y colisión con esperas acotadas, coloca las clases compatibles sobre el suelo y anula la velocidad inicial antes de liberar la física.",
+    "ES: Barcos y trenes conservan su altura configurada. Una liberación de respaldo comprueba entidad, modelo e identificador para evitar vehículos congelados o modificar entidades sustitutas.",
+    "EN: Fixed compiled UI packaging to include its JS/CSS bundles from assets without requiring the development app.js, locales.js or style.css files.",
+    "EN: Vehicles are stabilized from creation; initialization requests control and collision with bounded waits, grounds compatible classes and clears initial velocity before releasing physics.",
+    "EN: Boats and trains retain their configured height. A fallback release checks the entity, model and network ID to avoid stranded frozen vehicles or affecting replacement entities."
   ]
 }
